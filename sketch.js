@@ -1,7 +1,7 @@
 var paddle;
 var ball;
 var bricks = [];
-var brickCol = 5;
+var brickCol = 6;
 var brickRow = 5;
 var brickW = 100;
 var brickH = 20;
@@ -28,10 +28,11 @@ function draw() {
   background(180);
 
   paddle.display();
-  paddle.move(15);
+  paddle.move(14);
   ball.show();
   
   for (var brick of bricks) {
   brick.show();
   }
 }
+
