@@ -1,18 +1,18 @@
-things to fix in order
+things to fix and add
+
+  - glitch where ball gets stuck in paddle
 
   - Implement winning and losing conditions; win if all blocks cleared, lose if ball reaches bottom side.
-     This should include win screen and lose screen
+     This should include win screen and lose screen.
      
   - Think about timer and points system.
   
+  - Tips on start screens and game states
   
-  
-  tips on start screens and game states from chatgpt
-  
-Game States – You need a way to track whether the game is on the start screen, actively playing, or in a game-over state. A simple variable like gameState (e.g., "start", "playing", "gameOver") can manage this.
+  - Game States – You need a way to track whether the game is on the start screen, actively playing, or in a game-over state. A simple variable like gameState (e.g.,     "start", "playing", "gameOver") can manage this.
 
-Drawing the Start Screen – Instead of drawing the game elements, you’ll need to display a title and an instruction like "Press Space to Start". This means modifying your draw() function to check the game state and render the appropriate screen.
+  - Drawing the Start Screen – Instead of drawing the game elements, you’ll need to display a title and an instruction like "Press Space to Start". This means            modifying your draw() function to check the game state and render the appropriate screen.
 
-Listening for Input – The start screen should transition to gameplay when the player presses a key (e.g., the spacebar). You can modify your event listener to check if the game is in the start state before allowing movement.
+  - Listening for Input – The start screen should transition to gameplay when the player presses a key (e.g., the spacebar). You can modify your event listener to        check if the game is in the start state before allowing movement.
 
-Resetting the Game – When transitioning from the start screen to gameplay, make sure the ball, paddle, and bricks reset properly so the player starts fresh.
+  - Resetting the Game – When transitioning from the start screen to gameplay, make sure the ball, paddle, and bricks reset properly so the player starts fresh.
